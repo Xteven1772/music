@@ -36,5 +36,6 @@ const media = [
     { name: "Te quiero puta!", artist: "Rammstein", file: "music/Rammstein - Te quiero puta!.mp4", type: "video" },
     { name: "Nothing's New", artist: "Rio Romeo", file: "music/Rio Romeo - Nothing's New.mp4", type: "video" },
     { name: "Dragula", artist: "Rob Zombie", file: "music/Rob Zombie - Dragula.mp4", type: "video" },
-    { name: "Vicinity Of Obscenity", artist: "System Of A Down", file: "music/System Of A Down - Vicinity Of Obscenity.mp4", type: "video" }
+    { name: "Vicinity Of Obscenity", artist: "System Of A Down", file: "music/System Of A Down - Vicinity Of Obscenity.mp4", type: "video" },
+    { name: "You Don't Know Me", artist: "Oakland", file: "music/Oakland - You Don't Know Me.mp4", type: "video" },
 ];
