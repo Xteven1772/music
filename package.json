@@ -5,9 +5,18 @@
   "main": "index.js",
   "scripts": {
     "generate-media": "node generate-media-list.js",
-    "build": "npm run generate-media && echo 'Build completo'" // Este es el comando clave
+    "build": "npm run generate-media && echo 'Build completo'"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xteven1772/music.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Xteven1772/music/issues"
+  },
+  "homepage": "https://github.com/Xteven1772/music#readme"
 }
