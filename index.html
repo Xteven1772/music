@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atlantiq Illicit Player</title>
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+    <h1>atlantiq illicit player</h1>
+
+    <div class="main-container">
+        <aside class="left-panel">
+            <label for="theme-select" class="theme-label">Tema:</label>
+            <select id="theme-select" aria-label="Seleccionar tema de color">
+                <option value="normal" selected>Normal</option>
+                <option value="red">Rojo</option>
+                <option value="white">Blanco</option>
+                <option value="dark">Oscuro</option>
+                <option value="purple">Morado</option>
+            </select>
+
+            <input type="text" id="search" placeholder="Buscar canción..." aria-label="Buscar canción" />
+            <ul id="song-list" aria-live="polite" aria-relevant="additions"></ul>
+        </aside>
+
+        <section class="right-panel">
+            <div class="player-container">
+                <div id="cover-gallery" class="cover-gallery" aria-label="Galería de portadas">
+                    <!-- Portadas se insertan aquí (funcionalidad no implementada en este código, solo el contenedor) -->
+                </div>
+
+                <div class="player-slide" id="audio-slide" style="display:none;">
+                    <div class="media-info" id="audio-info">
+                        <p class="media-title"></p>
+                        <p class="media-artist"></p>
+                    </div>
+                    <audio id="audio-player" controls></audio>
+                </div>
+
+                <div class="player-slide" id="video-slide" style="display:none;">
+                    <div class="media-info" id="video-info">
+                        <p class="media-title"></p>
+                        <p class="media-artist"></p>
+                    </div>
+                    <video id="video-player" controls></video>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
