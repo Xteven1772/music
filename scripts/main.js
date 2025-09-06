@@ -16,7 +16,7 @@ const DOM = {
 let currentPlayingElement = null;
 
 /**
- * Oculta ambos reproductores (audio y video).
+ * Oculta ambos reproductores (audio y video) y pausa la reproducción.
  */
 function hideAllPlayers() {
     DOM.audioSlide.style.display = 'none';
