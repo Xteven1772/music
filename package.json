@@ -1,0 +1,13 @@
+{
+  "name": "reproductor-web",
+  "version": "1.0.0",
+  "description": "Reproductor de música y video estático",
+  "main": "index.js",
+  "scripts": {
+    "generate-media": "node generate-media-list.js",
+    "build": "npm run generate-media && echo 'Build completo'" // Este es el comando clave
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
